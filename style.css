@@ -45,9 +45,9 @@ header .navbar{
 .navbar a{
     color: #fefcfc;
     text-decoration: none;
-    transition: 0.2s; 
+    transition: 0.2s;
+   
 }
-
 
 .navbar a:hover{
     color: rgb(226, 161, 50);
@@ -93,19 +93,20 @@ header .navbar{
     transition: 0.2s ease;
 }
 
-.hero-section .content button:hover {
-    background: rgb(226, 161, 50) 
 
-    }
 
-  .navbar .menu-link a {
-        color: #fefdfd;
+    .hero-section .content button:hover {
+    background: rgb(226, 161, 50);
+    color: #fff;
+}
+
+    .navbar .menu-link a {
+        color: #fefdfd; 
     }
 
 .navbar .menu-link a:hover{
     color: rgb(226, 161, 50);
-
-
+}
 #close-menu-btn{
     display: none;
     position: absolute;
@@ -125,36 +126,28 @@ header .navbar{
 
 
 @media screen and (max-width: 900px) {
+
     #close-menu-btn, #menu-btn{
         display: block;
     }
+
     .navbar .menu-link {
-    position: fixed;
-    left: -190px;
-    top: 0;
-    flex-direction: column;
-    width: 200px;
-    height: 100vh;
-    background: #fffefe;
-    padding: 70px 40px 0;
-    transition: 0.3s ease;
-   
-}
-    
-   .navbar .menu-link.active {
-    left: 0;
-    
-}
-
-}
-
-
-@media screen and (max-width: 900px) {
-    .navbar .menu-link {
+        position: fixed;
+        left: -190px;
+        top: 0;
+        flex-direction: column;
+        width: 200px;
+        height: 100vh;
         background: #fff;
+        padding: 70px 40px 0;
+        transition: 0.3s ease;
+    }
+
+    .navbar .menu-link.active {
+        left: 0;
     }
 
     .navbar .menu-link a {
-        color: #000; /* Սև գույն */
+        color: #000;
     }
 }
