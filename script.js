@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.querySelector("#close-menu-btn");
     const menu = document.querySelector(".menu-link");
 
-    console.log(menuBtn, closeBtn, menu); // ստուգելու համար
-
     menuBtn.addEventListener("click", () => {
         menu.classList.add("active");
     });
