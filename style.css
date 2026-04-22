@@ -49,6 +49,10 @@ header .navbar{
    
 }
 
+.navbar a {
+    color: rgb(226, 161, 50);
+}
+
 .navbar a:hover{
     color: rgb(226, 161, 50);
 }
