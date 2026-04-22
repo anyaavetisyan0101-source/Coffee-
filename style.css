@@ -45,10 +45,8 @@ header .navbar{
 .navbar a{
     color: #fefcfc;
     text-decoration: none;
-    transition: 0.2s;
-   
+    transition: 0.2s; 
 }
-
 
 
 .navbar a:hover{
@@ -97,12 +95,15 @@ header .navbar{
 
 .hero-section .content button:hover {
     background: rgb(226, 161, 50) 
-    
+
     }
 
-    .navbar .menu-link a {
-        color: #000; /* Սև գույն */
+  .navbar .menu-link a {
+        color: #fefdfd;
     }
+
+.navbar .menu-link a:hover{
+    color: rgb(226, 161, 50);
 
 
 #close-menu-btn{
